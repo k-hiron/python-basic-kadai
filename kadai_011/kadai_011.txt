@@ -9,6 +9,7 @@ while count <1:
     count += 1
 
 
+水
 金
 地
 火
