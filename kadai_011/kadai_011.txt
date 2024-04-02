@@ -1,0 +1,28 @@
+array = ["水","金","地","火","木","土","天","海","冥"]
+for i in range(0,9):
+  print(array[i])
+  array = ["水", "金", "地", "火", "木", "土", "天", "海", "冥"]
+count = 0 #countを0に設定
+while count <1:
+    for array in array: 
+        print(array)
+    count += 1
+
+
+金
+地
+火
+木
+土
+天
+海
+冥
+水
+金
+地
+火
+木
+土
+天
+海
+冥
