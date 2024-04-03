@@ -1,0 +1,23 @@
+price1 = 100
+price2 = 200
+
+# グローバル変数を定義する
+user_name_total = price1 + price2 * tax
+
+def show_user_name_total():
+    tax = 1.1
+
+    # ローカル変数を定義する
+    user_name_total = price1 + price2 * tax
+
+    return user_name_total
+
+    # ローカルスコープの範囲内でローカル変数を使う
+    print(user_name_total)
+
+show_user_name_total()
+
+# グローバルスコープの範囲内でグローバル変数を使う
+print(user_name_total)
+
+320.0
