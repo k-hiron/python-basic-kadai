@@ -5,9 +5,6 @@ tax = 1.1
 def user_name_total():
     return price1 + price2 * tax
 
-def total():
-    return price1 + price2
-
 print (total() * tax)
 def show_return_user_name_total():
   print(total() * tax)
