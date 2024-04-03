@@ -2,13 +2,10 @@ price1 = 100
 price2 = 200
 tax = 1.1
 
-def show_total():
+def total():    
     return price1 + price2
 
-print(show_total() * tax)
-
-show_total() * tax
-print(total() * tax)
+print (total() * tax)
 
 330.0
-330.0
+
