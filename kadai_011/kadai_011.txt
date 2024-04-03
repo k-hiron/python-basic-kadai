@@ -1,19 +1,11 @@
 array = ["水","金","地","火","木","土","天","海","冥"]
 for i in range(0,9):
   print(array[i])
+
 array = ["水", "金", "地", "火", "木", "土", "天", "海", "冥"]
-array = 0
-while array <1:
-    print("水")
-    print("金")
-    print("地")
-    print("火")
-    print("木")
-    print("土")
-    print("天")
-    print("海")
-    print("冥")
-    array += 1
+while count < len(array):
+    print(array[count])
+    count += 1
 
 
 水
