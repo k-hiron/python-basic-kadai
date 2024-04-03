@@ -2,14 +2,13 @@ price1 = 100
 price2 = 200
 tax = 1.1
 
-def user_name_total():
-    return price1 + price2 * tax
+def show_total():
+    return price1 + price2
 
-print (total() * tax)
-def show_return_user_name_total():
-  print(total() * tax)
+print(show_total() * tax)
 
-show_return_user_name_total()
+show_total() * tax
+print(total() * tax)
 
 330.0
 330.0
