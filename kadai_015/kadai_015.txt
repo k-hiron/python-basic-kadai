@@ -1,0 +1,20 @@
+#Humanクラスを作成
+class Human:
+    def __init__(self):
+        self.name = ""   
+
+    def printinfo(self, name, age):
+        self.name = name
+        self.age = age
+
+# インスタンス化する
+human = Human()
+
+# 属性にアクセスし、値を代入する
+human.printinfo("花子","30")
+
+print(human.name)
+print(human.age)
+
+花子
+30
