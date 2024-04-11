@@ -1,0 +1,29 @@
+# Define the Human class
+class Human():
+    n = 0
+
+    def __init__(self, name, age):
+        self.n += 1
+        self.name = name
+        self.age = age
+
+    def check_adult(self):
+        if self.age > 20:
+            return f"{self.name}: 大人"
+        else:
+            return f"{self.name}: 子供"
+
+# Humanクラスのインスタンスを複数生成
+K = Human("Kaori", 23)
+N = Human("Naoki", 18)
+T = Human("Tomoko", 27)
+S = Human("Sota", 13)
+
+# ステータスをプリント
+for human in [K, N, T, S]:
+    print(human.check_adult())
+
+Kaori: 大人
+Naoki: 子供
+Tomoko: 大人
+Sota: 子供
